@@ -42,8 +42,8 @@ $('.faq__q-list').on('click', function (e) {
 $(function () {
     $('.faq__minus').hide();
 });
-//.faq__flexがクリックされたら.faq__minusを表示、.faq__plusを非表示
-$('.faq__q-list').on('clicq-listk', function () {
-    $(this).find('.faq__minus').toggle();
+//.faq__q-listがクリックされたら.faq__minusを表示、.faq__plusを非表示
+$('.faq__q-list').on('click', function () {
     $(this).find('.faq__plus').toggle();
+    $(this).find('.faq__minus').toggle();
 });
