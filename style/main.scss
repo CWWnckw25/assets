@@ -1012,6 +1012,7 @@ span{
         font-weight: bold;
         letter-spacing: 0.06rem;
         margin-bottom: vw(43);
+        color: #168352;
         @include mq(md) {
             font-size: mvw(32);
             letter-spacing: unset;
