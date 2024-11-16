@@ -819,10 +819,10 @@ span{
     white-space: nowrap;
     margin-bottom: vw(25);
     @include mq(md) {
-        padding: 0;
+        padding: 0 mvw(15);
         margin-bottom: mvw(50);
         max-width: mvw(1205);
-        margin: 0 auto mvw(50) auto;
+        margin: 0 auto mvw(35) auto;
     }
 &__inner a{
     color: #000;

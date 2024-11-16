@@ -881,10 +881,10 @@ span {
 }
 @media screen and (min-width: 768px) {
   .breadcrumb {
-    padding: 0;
+    padding: 0 min(1.4563106796vw, 0.9375rem);
     margin-bottom: min(4.854368932vw, 3.125rem);
     max-width: min(116.9902912621vw, 75.3125rem);
-    margin: 0 auto min(4.854368932vw, 3.125rem) auto;
+    margin: 0 auto min(3.3980582524vw, 2.1875rem) auto;
   }
 }
 .breadcrumb__inner a {
