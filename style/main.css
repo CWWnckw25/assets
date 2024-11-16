@@ -48,7 +48,7 @@ span {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: min(113.4951456311vw, 73.0625rem);
+    max-width: min(113.5922330097vw, 73.125rem);
     margin: 0 auto;
   }
 }
@@ -167,7 +167,7 @@ span {
 }
 @media screen and (min-width: 768px) {
   .sustainable__container {
-    max-width: min(113.4951456311vw, 73.0625rem);
+    max-width: min(109.7087378641vw, 70.625rem);
   }
 }
 .sustainable__title {
@@ -493,11 +493,23 @@ span {
   }
 }
 @media screen and (min-width: 768px) {
+  .introduction__button-s {
+    max-width: 30.3%;
+    margin: 0 auto;
+    padding: min(1.9417475728vw, 1.25rem) min(0.9708737864vw, 0.625rem);
+  }
+}
+@media screen and (min-width: 768px) {
   .introduction__button-pc {
     width: 47.7%;
     height: min(17.4757281553vw, 11.25rem);
     gap: min(2.9126213592vw, 1.875rem);
     padding: min(1.9417475728vw, 1.25rem) min(2.2330097087vw, 1.4375rem) min(1.9417475728vw, 1.25rem) min(3.0097087379vw, 1.9375rem);
+  }
+}
+@media screen and (min-width: 768px) {
+  .introduction__button-pc03 {
+    margin-right: min(1.4563106796vw, 0.9375rem);
   }
 }
 .introduction__button-pc-first .introduction__button-after {
@@ -551,10 +563,18 @@ span {
     font-size: min(2.3300970874vw, 1.5rem);
   }
 }
+.introduction__button-text02 {
+  width: 43.5897435897vw;
+}
 @media screen and (min-width: 768px) {
   .introduction__button-text02 {
     width: min(22.427184466vw, 14.4375rem);
     font-size: min(2.3300970874vw, 1.5rem);
+  }
+}
+@media screen and (min-width: 768px) {
+  .introduction__button-text03 {
+    font-size: min(1.9417475728vw, 1.25rem);
   }
 }
 .introduction__button-span {
@@ -564,6 +584,14 @@ span {
   .introduction__button-span {
     display: inline;
     white-space: nowrap;
+  }
+}
+.introduction__button_break {
+  display: block;
+}
+@media screen and (min-width: 768px) {
+  .introduction__button_break {
+    display: inline;
   }
 }
 .introduction__img_sp {
@@ -582,7 +610,13 @@ span {
 @media screen and (min-width: 768px) {
   .introduction__img_pc {
     display: block;
-    width: 100%;
+    width: min(10.6796116505vw, 6.875rem);
+    height: auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  .introduction__img_pc03 {
+    margin-left: min(1.4563106796vw, 0.9375rem);
   }
 }
 @media screen and (min-width: 768px) {

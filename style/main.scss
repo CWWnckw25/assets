@@ -101,7 +101,7 @@ span{
             display: flex;
             justify-content: space-between;
             align-items: center;
-            max-width: mvw(1169);
+            max-width: mvw(1170);
             margin: 0 auto;
         }
     }
@@ -208,7 +208,7 @@ span{
 
     &__container{
         @include mq(md) {
-            max-width: mvw(1169);
+            max-width: mvw(1130);
         }
     }
     &__title{
@@ -480,12 +480,24 @@ span{
             gap: mvw(20);
     }
 }
+    &__button-s{
+        @include mq(md) {
+            max-width: 30.3%;
+            margin: 0 auto;
+            padding: mvw(20) mvw(10);
+    }
+}
     &__button-pc{
         @include mq(md) {
             width: 47.7%;
             height: mvw(180);
             gap: mvw(30);
             padding: mvw(20) mvw(23) mvw(20) mvw(31);
+    }
+}
+    &__button-pc03{
+        @include mq(md) {
+            margin-right: mvw(15);
     }
 }
     &__button-pc-first .introduction__button-after{
@@ -535,9 +547,15 @@ span{
     }
 }
     &__button-text02{
+        width: vw(170);
         @include mq(md) {
             width: mvw(231);
             font-size: mvw(24);
+    }
+}
+    &__button-text03{
+        @include mq(md) {
+            font-size: mvw(20);
     }
 }
     &__button-span{
@@ -545,6 +563,12 @@ span{
         @include mq(md) {
             display: inline;
             white-space: nowrap;
+    }
+}
+    &__button_break{
+        display: block;
+        @include mq(md) {
+            display: inline;
     }
 }
     &__img_sp{
@@ -559,10 +583,16 @@ span{
         display: none;
         @include mq(md) {
             display: block;
-            width: 100%;
+            width: mvw(110);
+            height: auto;
     }
 }
-&__img_pc-large{
+    &__img_pc03{
+        @include mq(md) {
+            margin-left: mvw(15);
+    }
+}
+    &__img_pc-large{
     @include mq(md) {
         width: mvw(133);
 }
