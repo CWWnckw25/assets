@@ -544,6 +544,7 @@ span{
         display: block;
         @include mq(md) {
             display: inline;
+            white-space: nowrap;
     }
 }
     &__img_sp{
