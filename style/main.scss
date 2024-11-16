@@ -91,13 +91,20 @@ span{
     background-color: #fff;
     padding:vw(0) vw(10)vw(14) vw(15);
     @include mq(md) {
-        display: flex;
-        justify-content: space-between;
-        padding: mvw(34) mvw(115) mvw(35) mvw(116);
+        padding: mvw(34) mvw(15) mvw(35) mvw(15);
         width: 100%;
-        margin: 0 auto;
+        
     }
-    
+    &__container{
+        display: block;
+        @include mq(md) {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: mvw(1169);
+            margin: 0 auto;
+        }
+    }
     &__inner{
     display: flex;
     align-items: center;
@@ -105,12 +112,12 @@ span{
     line-height: 1.5;
     width: vw(365);
     @include mq(md) {
+        display: block;
         align-items: flex-start;
         justify-content: space-between;
         gap: 0;
         padding: mvw(0);
-        width: mvw(1200);
-        margin: 0 auto;
+        width: mvw(262);
     }
 }
     &__inner-logo{
@@ -121,7 +128,6 @@ span{
             height: auto;
     }
     }
-
     &__hamburger-nav{
         @include mq(md) {
         display: flex;
@@ -166,7 +172,6 @@ span{
         background-color: #fff;
         font-size: mvw(16);
         padding: 0;
-        margin-top: mvw(9);
         margin-bottom: 0;
     }
 }
@@ -194,12 +199,18 @@ span{
     @include mq(md) {
         display: flex;
         gap: 3%;
-        padding: mvw(52) 10.7% mvw(31) 10.7%;
+        padding: mvw(52) mvw(15) mvw(31) mvw(15);
         margin: mvw(97) auto 0 auto;
         justify-content: space-between;
+        width: 100%;
     }
     }
 
+    &__container{
+        @include mq(md) {
+            max-width: mvw(1169);
+        }
+    }
     &__title{
         font-size: vw(28);
         font-weight: bold;
@@ -808,8 +819,10 @@ span{
     white-space: nowrap;
     margin-bottom: vw(25);
     @include mq(md) {
-        padding: 0 mvw(97) 0 mvw(97);
+        padding: 0;
         margin-bottom: mvw(50);
+        max-width: mvw(1205);
+        margin: 0 auto mvw(50) auto;
     }
 &__inner a{
     color: #000;
@@ -821,7 +834,6 @@ span{
     @include mq(md) {
         font-size: mvw(12);
         width: mvw(140);
-        margin-right: 0;
     }
 }
 }

@@ -36,10 +36,19 @@ span {
 }
 @media screen and (min-width: 768px) {
   .header {
+    padding: min(3.3009708738vw, 2.125rem) min(1.4563106796vw, 0.9375rem) min(3.3980582524vw, 2.1875rem) min(1.4563106796vw, 0.9375rem);
+    width: 100%;
+  }
+}
+.header__container {
+  display: block;
+}
+@media screen and (min-width: 768px) {
+  .header__container {
     display: flex;
     justify-content: space-between;
-    padding: min(3.3009708738vw, 2.125rem) min(11.1650485437vw, 7.1875rem) min(3.3980582524vw, 2.1875rem) min(11.2621359223vw, 7.25rem);
-    width: 100%;
+    align-items: center;
+    max-width: min(113.4951456311vw, 73.0625rem);
     margin: 0 auto;
   }
 }
@@ -52,12 +61,12 @@ span {
 }
 @media screen and (min-width: 768px) {
   .header__inner {
+    display: block;
     align-items: flex-start;
     justify-content: space-between;
     gap: 0;
     padding: min(0vw, 0rem);
-    width: min(116.5048543689vw, 75rem);
-    margin: 0 auto;
+    width: min(25.4368932039vw, 16.375rem);
   }
 }
 .header__inner-logo {
@@ -117,7 +126,6 @@ span {
     background-color: #fff;
     font-size: min(1.5533980583vw, 1rem);
     padding: 0;
-    margin-top: min(0.8737864078vw, 0.5625rem);
     margin-bottom: 0;
   }
 }
@@ -151,9 +159,15 @@ span {
   .sustainable__container {
     display: flex;
     gap: 3%;
-    padding: min(5.0485436893vw, 3.25rem) 10.7% min(3.0097087379vw, 1.9375rem) 10.7%;
+    padding: min(5.0485436893vw, 3.25rem) min(1.4563106796vw, 0.9375rem) min(3.0097087379vw, 1.9375rem) min(1.4563106796vw, 0.9375rem);
     margin: min(9.4174757282vw, 6.0625rem) auto 0 auto;
     justify-content: space-between;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .sustainable__container {
+    max-width: min(113.4951456311vw, 73.0625rem);
   }
 }
 .sustainable__title {
@@ -867,8 +881,10 @@ span {
 }
 @media screen and (min-width: 768px) {
   .breadcrumb {
-    padding: 0 min(9.4174757282vw, 6.0625rem) 0 min(9.4174757282vw, 6.0625rem);
+    padding: 0;
     margin-bottom: min(4.854368932vw, 3.125rem);
+    max-width: min(116.9902912621vw, 75.3125rem);
+    margin: 0 auto min(4.854368932vw, 3.125rem) auto;
   }
 }
 .breadcrumb__inner a {
@@ -883,7 +899,6 @@ span {
   .breadcrumb__inner {
     font-size: min(1.1650485437vw, 0.75rem);
     width: min(13.5922330097vw, 8.75rem);
-    margin-right: 0;
   }
 }
 
