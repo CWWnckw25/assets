@@ -763,7 +763,7 @@ span {
   height: 7.1794871795vw;
   color: #fff;
   background-color: #473221;
-  border-radius: 4px;
+  border-radius: 1.0256410256vw;
   padding-top: 1.5384615385vw;
 }
 @media screen and (min-width: 768px) {
@@ -795,7 +795,7 @@ span {
   display: inline-block;
   padding: 4.8717948718vw 22.3076923077vw;
   background-color: #09947b;
-  border-radius: 33px;
+  border-radius: 8.4615384615vw;
   color: #fff;
   font-size: 4.6153846154vw;
   font-weight: bold;

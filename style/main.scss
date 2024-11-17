@@ -715,7 +715,7 @@ span{
         height: vw(28);
         color: #fff;
         background-color: #473221;
-        border-radius: 4px;
+        border-radius: vw(4);
         padding-top: vw(6);
         @include mq(md) {
             font-size: mvw(13);
@@ -745,7 +745,7 @@ span{
         display: inline-block;
         padding: vw(19) vw(87);
         background-color: #09947b;
-        border-radius: 33px;
+        border-radius: vw(33);
         color: #fff;
         font-size: vw(18);
         font-weight: bold;
