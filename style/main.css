@@ -792,6 +792,7 @@ span {
   }
 }
 .news__button {
+  display: inline-block;
   padding: 4.8717948718vw 22.3076923077vw;
   background-color: #09947b;
   border-radius: 33px;
@@ -803,13 +804,16 @@ span {
 }
 @media screen and (min-width: 768px) {
   .news__button {
+    display: block;
+    width: min(29.1262135922vw, 18.75rem);
+    margin: min(2.0388349515vw, 1.3125rem) auto 0 auto;
     padding: min(1.8446601942vw, 1.1875rem) min(8.4466019417vw, 5.4375rem);
     font-size: min(1.7475728155vw, 1.125rem);
-    margin-top: min(2.0388349515vw, 1.3125rem);
   }
 }
 .news__button:hover {
   box-shadow: none;
+  transform: translateY(5px);
 }
 
 .footer {

@@ -742,6 +742,7 @@ span{
 
     }
     &__button{
+        display: inline-block;
         padding: vw(19) vw(87);
         background-color: #09947b;
         border-radius: 33px;
@@ -751,13 +752,16 @@ span{
         margin-top: vw(18);
         box-shadow:#066655 0px 5px 0px 0px;
         @include mq(md) {
+            display: block;
+            width: mvw(300);
+            margin:mvw(21) auto 0 auto;
             padding: mvw(19) mvw(87);
             font-size: mvw(18);
-            margin-top: mvw(21);
         }
     }
     &__button:hover{
         box-shadow: none;
+        transform: translateY(5px);
     }
 
 }
