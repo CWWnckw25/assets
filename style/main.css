@@ -79,6 +79,9 @@ span {
     height: auto;
   }
 }
+.header__hamburger-nav {
+  transform: all 0.3s ease;
+}
 @media screen and (min-width: 768px) {
   .header__hamburger-nav {
     display: flex;
@@ -99,10 +102,8 @@ span {
 }
 
 .hamburger-nav-list {
-  display: block;
+  position: fixed;
   background-color: #168352;
-  width: 91.7948717949vw;
-  height: 53.8461538462vw;
   padding: 10.2564102564vw 2.5641025641vw;
   margin: 0 auto;
   font-size: 4.6153846154vw;
@@ -112,11 +113,13 @@ span {
   flex-direction: column;
   gap: 5.1282051282vw;
   text-align: center;
-  margin-bottom: 7.6923076923vw;
+  left: 2.5641025641vw;
+  right: 2.5641025641vw;
 }
 @media screen and (min-width: 768px) {
   .hamburger-nav-list {
     display: flex;
+    position: relative;
     align-items: center;
     flex-direction: unset;
     gap: min(3.6893203883vw, 2.375rem);
@@ -127,6 +130,8 @@ span {
     font-size: min(1.5533980583vw, 1rem);
     padding: 0;
     margin-bottom: 0;
+    left: unset;
+    right: unset;
   }
 }
 

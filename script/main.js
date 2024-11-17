@@ -1,10 +1,3 @@
-//.header__hamburger-menu初めは非表示、
-$(function () {
-    $('.header__hamburger-menu').hide();
-    $('#hamburger-button').on('click', function () {
-        $('.header__hamburger-menu').slideToggle();
-    });
-});
 //画面幅が768px以上の時、.header__hamburger-menuを表示にする
 $(window).on('load resize', function () {
     var w = $(window).width();
@@ -15,12 +8,16 @@ $(window).on('load resize', function () {
         $('.header__hamburger-menu').hide();
     }
 });
+//#hamburger-buttonがクリックされたら.header__hamburger-menuをゆっくり表示
+$('#hamburger-button').on('click', function () {
+    $('.header__hamburger-menu').fadeToggle('slow');
+});
 //画面幅768px以下、スクロール時.header__hamburger-menuをゆっくり非表示にする
-$(window).on('scroll', function () {
+$(window).scroll(function () {
     var w = $(window).width();
     var x = 768;
     if (w <= x) {
-        $('.header__hamburger-menu').slideUp();
+        $('.header__hamburger-menu').fadeOut('slow');
     }
 });
 //slick

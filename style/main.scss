@@ -129,6 +129,7 @@ span{
     }
     }
     &__hamburger-nav{
+        transform:all 0.3s ease;
         @include mq(md) {
         display: flex;
         align-items: center;
@@ -145,10 +146,8 @@ span{
 }
 }
 .hamburger-nav-list{
-    display: block;
+    position: fixed;
     background-color:#168352 ;
-    width: vw(358);
-    height: vw(210);
     padding: vw(40)vw(10);
     margin: 0 auto;
     font-size: vw(18);
@@ -158,11 +157,13 @@ span{
     flex-direction: column;
     gap:vw(20);
     text-align: center;
-    margin-bottom: vw(30);
+    left: vw(10);
+    right: vw(10);
 
 
     @include mq(md) {
         display: flex;
+        position: relative;
         align-items: center;
         flex-direction: unset;
         gap: mvw(38);
@@ -173,6 +174,8 @@ span{
         font-size: mvw(16);
         padding: 0;
         margin-bottom: 0;
+        left: unset;
+        right: unset;
     }
 }
 .hamburger-nav-list a:hover{
