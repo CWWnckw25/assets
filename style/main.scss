@@ -1290,6 +1290,10 @@ tr:last-child{
         padding: mvw(20) mvw(21) mvw(18) mvw(32);
     }    
 }
+&__inner-box:hover{
+    background-color: #f3f9f6;
+    cursor: pointer;
+}
 &__inner-box-correction{
     padding: vw(23) vw(13) vw(17) vw(24);
     @include mq(md) {

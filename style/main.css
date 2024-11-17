@@ -1450,6 +1450,10 @@ tr:last-child td {
     padding: min(1.9417475728vw, 1.25rem) min(2.0388349515vw, 1.3125rem) min(1.7475728155vw, 1.125rem) min(3.1067961165vw, 2rem);
   }
 }
+.faq__inner-box:hover {
+  background-color: #f3f9f6;
+  cursor: pointer;
+}
 .faq__inner-box-correction {
   padding: 5.8974358974vw 3.3333333333vw 4.358974359vw 6.1538461538vw;
 }
