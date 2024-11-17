@@ -194,6 +194,11 @@ span{
     display: none;
 }
 }
+.top-color{
+    @include mq(md) {
+    color: #168352;
+}
+}
 .sustainable{
     &__container{
     padding: vw(0) vw(15) vw(10) vw(15);

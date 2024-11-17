@@ -156,6 +156,12 @@ span {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .top-color {
+    color: #168352;
+  }
+}
+
 .sustainable__container {
   padding: 0vw 3.8461538462vw 2.5641025641vw 3.8461538462vw;
   margin-top: 18.4615384615vw;
