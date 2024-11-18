@@ -312,6 +312,7 @@ span{
             margin: 0;
             border-radius: 0;
             font-size: mvw(20);
+            line-height: 1.76;
     }
     }
     &__paragraph-title-span-block{
@@ -377,8 +378,8 @@ span{
     &__container-title{
         line-height: 1.5;
         @include mq(md) {
-            line-height: 1.6;
-            margin-bottom: mvw(25);
+            line-height: 1.7;
+            margin-bottom: mvw(21);
         }
     }
     &__flex{
@@ -410,7 +411,7 @@ span{
         @include mq(md) {
             display: block;
             width: mvw(369);
-            height: mvw(229);
+            height: mvw(227);
             border-radius: 24px 24px 0 0;
     }
     }
@@ -437,8 +438,8 @@ span{
         line-height: 1.5;
         margin-bottom: vw(20);
         @include mq(md) {
-            line-height: 1.6;
-            margin-bottom: mvw(25);
+            line-height: 1.7;
+            margin-bottom: mvw(23);
 }
     }
     
@@ -646,7 +647,7 @@ span{
     text-align: center;
     line-height: 1.5;
     @include mq(md) {
-        padding: mvw(53) mvw(15) mvw(68) mvw(15);
+        padding: mvw(50) mvw(15) mvw(68) mvw(15);
         line-height: 1.6;
     }
     &__list{
@@ -702,6 +703,7 @@ span{
             height: mvw(28);
             padding-top: mvw(4);
             font-weight: normal;
+            border-radius: mvw(4);
         }
 
     }
@@ -718,8 +720,8 @@ span{
             margin-bottom: 0;
             letter-spacing: 0.005rem;
         }
-
     }
+
     &__button{
         display: inline-block;
         padding: vw(19) vw(87);
@@ -728,12 +730,11 @@ span{
         color: #fff;
         font-size: vw(18);
         font-weight: bold;
-        margin-top: vw(18);
         box-shadow:#066655 0px 5px 0px 0px;
         @include mq(md) {
             display: block;
             width: mvw(300);
-            margin:mvw(21) auto 0 auto;
+            margin:mvw(32) auto 0 auto;
             padding: mvw(19) mvw(87);
             font-size: mvw(18);
         }
