@@ -40,8 +40,10 @@
 </header>
 <!--メイン-->
 <section class="faq__main">
-    <img src="/img/faq_top_pc.jpg" alt="" class="faq__main-pc-img">
-    <img src="/img/faq_top_sp.jpg" alt="" class="faq__main-sp-img">
+    <picture>
+        <source media="(min-width: 767px)" srcset="/img/faq_top_pc.jpg">
+        <img src="/img/faq_top_sp.jpg" alt="" class="faq__img">
+    </picture>
     <div class="faq__main-inner">
         <h2 class="faq__main-inner-text">よくあるご質問</h2>
     </div> 
