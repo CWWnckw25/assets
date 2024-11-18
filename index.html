@@ -45,10 +45,10 @@
                 <h2 class="sustainable__title">持続可能な農業を目指す</h2>
                 <p class="sustainable__paragraph">キラメキファームは革新的デザインの農業機器で未来の農業を実現。ビッグデータ・自動運転<span>ロボット</span>・リジェネラティブ農業で環境に優しい効率化を目指す。</p>
             </div>
-            <div class="sustainable__img">
+            <div class="sustainable__img-main">
                 <picture>
-                    <source media="(max-width: 767px)" srcset="/img/index_main_sp.jpg">
-                    <img src="/img/index_main_pc.jpg" alt="" class="sustainable__img-pc">
+                    <source media="(min-width: 767px)" srcset="/img/index_main_pc.jpg">
+                    <img src="/img/index_main_sp.jpg" alt="" class="sustainable__img">
                 </picture>
             </div>
         </div>
@@ -67,8 +67,10 @@
                 </span>
             </p>
             <div class="description__img">
-                <img src="/img/description_sp.jpg" class="description__img-sp" alt="">
-                <img src="/img/description_pc.jpg" class="description__img-pc" alt="">
+                <picture>
+                    <source media="(min-width: 767px)" srcset="/img/description_pc.jpg">
+                    <img src="/img/description_sp.jpg" alt="" class="description__img-02">
+                </picture>
             </div>
         </div>
     </section>
@@ -78,23 +80,24 @@
         </div>
         <div class="reason__flex">
             <div class="reason__item">
-                <img src="/img/reason_sp1.jpg" alt="" class="reason__img_sp">
-                <img src="/img/reason_pc1.jpg" alt="" class="reason__img_pc">
-                
+                <picture>
+                    <source media="(min-width: 767px)" srcset="/img/reason_pc1.jpg">
+                    <img src="/img/reason_sp1.jpg" alt="" class="reason__img">
+                </picture>
                 <p class="reason__detail">農業の未来と革新的デザイン性で最新鋭の機能を完備</p>
             </div>
             <div class="reason__item">
-                <div class="reason__img">
-                    <img src="/img/reason_sp2.jpg" alt="" class="reason__img_sp">
-                    <img src="/img/reason_pc2.jpg" alt="" class="reason__img_pc">
-                </div>
+                <picture>
+                    <source media="(min-width: 767px)" srcset="/img/reason_pc2.jpg">
+                    <img src="/img/reason_sp2.jpg" alt="" class="reason__img">
+                </picture>
                 <p class="reason__detail">ビッグデータを駆使して、省電力・効率化を実現</p>
             </div>
             <div class="reason__item">
-                <div class="reason__img">
-                    <img src="/img/reason_sp3.jpg" alt="" class="reason__img_sp">
-                    <img src="/img/reason_pc3.jpg" alt="" class="reason__img_pc">
-                </div>
+                <picture>
+                    <source media="(min-width: 767px)" srcset="/img/reason_pc3.jpg">
+                    <img src="/img/reason_sp3.jpg" alt="" class="reason__img">
+                </picture>
                 <p class="reason__detail">自動運転技術を搭載したロボットで一年中稼働することができる</p>
             </div>
         </div>
@@ -104,37 +107,47 @@
             <h2 class="introduction__container-title green-title">Products / Service<span class="introduction__container-title black-title">製品・サービス紹介</span></h2>
             <div class="introduction__item">
                 <a href="#" class="introduction__button introduction__button-pc introduction__button-pc-first">
-                    <span class="introduction__img">
-                        <img src="/img/introduction_sp1.png" alt="" class="introduction__img_sp">
-                        <img src="/img/introduction_pc1.png" alt="" class="introduction__img_pc introduction__img_pc-large">
+                    <span class="introduction__img-box">
+                        <picture>
+                            <source media="(min-width: 767px)" srcset="/img/introduction_pc1.png">
+                            <img src="/img/introduction_sp1.png" alt="" class="introduction__img-l">
+                        </picture>
                     </span>
                     <span class="introduction__button-text introduction__button-text01">エネルギーセイバー農業ドローン</span><span class="introduction__button-after">ロボット技術</span>
                 </a>
                 <a href="#" class="introduction__button introduction__button-pc">
-                    <span class="introduction__img">
-                        <img src="/img/introduction_sp2.png" alt="" class="introduction__img_sp">
-                        <img src="/img/introduction_pc2.png" alt="" class="introduction__img_pc introduction__img_pc-large">
+                    <span class="introduction__img-box">
+                        <picture>
+                            <source media="(min-width: 767px)" srcset="/img/introduction_pc2.png">
+                            <img src="/img/introduction_sp2.png" alt="" class="introduction__img-l">
+                        </picture>
                     </span>
                     <span class="introduction__button-text introduction__button-text02">プログレッシブ<span class="introduction__button_break">ハーベストボット</span></span>
                 </a>
                 <a href="#" class="introduction__button introduction__button-s">
-                    <span class="introduction__img">
-                        <img src="/img/introduction_sp3.png" alt="" class="introduction__img_sp">
-                        <img src="/img/introduction_pc3.png" alt="" class="introduction__img_pc introduction__img_pc03">
+                    <span class="introduction__img-box">
+                        <picture>
+                            <source media="(min-width: 767px)" srcset="/img/introduction_pc3.png">
+                            <img src="/img/introduction_sp3.png" alt="" class="introduction__img-s">
+                        </picture>
                     </span>
                     <span class="introduction__button-text introduction__button-text03">フューチャーファームマスター</span>
                 </a>
                 <a href="#" class="introduction__button introduction__button-s">
-                    <span class="introduction__img">
-                        <img src="/img/introduction_sp4.png" alt="" class="introduction__img_sp">
-                        <img src="/img/introduction_pc4.png" alt="" class="introduction__img_pc introduction__img_pc03">
+                    <span class="introduction__img-box">
+                        <picture>
+                            <source media="(min-width: 767px)" srcset="/img/introduction_pc4.png">
+                            <img src="/img/introduction_sp4.png" alt="" class="introduction__img-s">
+                        </picture>
                     </span>
                     <span class="introduction__button-text">ミラクルグローアシスト</span>
                 </a>
                 <a href="#" class="introduction__button introduction__button-s">
-                    <span class="introduction__img">
-                        <img src="/img/introduction_sp5.png" alt="" class="introduction__img_sp">
-                        <img src="/img/introduction_pc5.png" alt="" class="introduction__img_pc introduction__img_pc03">
+                    <span class="introduction__img-box">
+                        <picture>
+                            <source media="(min-width: 767px)" srcset="/img/introduction_pc5.png">
+                            <img src="/img/introduction_sp5.png" alt="" class="introduction__img-s">
+                        </picture>
                     </span>
                     <span class="introduction__button-text introduction__button-text03">インテリジェントプランター</span>
                 </a>
@@ -146,24 +159,24 @@
             <h2 class="case__container-title green-title">Case<span class="introduction__container-title black-title">お客様の事例紹介</span></h2>
             <div class="case__box">
                 <a href="#" class="case__item">
-                    <div>
-                        <img src="/img/case_01_sp.jpg" alt="" class="case__img-sp">
-                        <img src="/img/case_01_pc.jpg" alt="" class="case__img-pc">
-                    </div>
+                    <picture>
+                        <source media="(min-width: 767px)" srcset="/img/case_01_pc.jpg">
+                        <img src="/img/case_01_sp.jpg" alt="" class="case__img">
+                    </picture>
                     <p class="case__detail">利用開始後約1年で売り上げが150％増加</p>
                 </a>
                 <a href="#" class="case__item">
-                    <div>
-                        <img src="/img/case_02_sp.jpg" alt="" class="case__img-sp">
-                        <img src="/img/case_02_pc.jpg" alt="" class="case__img-pc">
-                    </div>
+                    <picture>
+                        <source media="(min-width: 767px)" srcset="/img/case_02_pc.jpg">
+                        <img src="/img/case_02_sp.jpg" alt="" class="case__img">
+                    </picture>
                     <p class="case__detail">無駄な作業が減り、30％のコストカットに成功</p>
                 </a>
                 <a href="#" class="case__item">
-                    <div>
-                        <img src="/img/case_03_sp.jpg" alt="" class="case__img-sp">
-                        <img src="/img/case_03_pc.jpg" alt="" class="case__img-pc">
-                    </div>
+                    <picture>
+                        <source media="(min-width: 767px)" srcset="/img/case_03_pc.jpg">
+                        <img src="/img/case_03_sp.jpg" alt="" class="case__img">
+                    </picture>
                     <p class="case__detail">24時間対応のサポートデスクがあるのも安心です</p>
                 </a>
             </div>
