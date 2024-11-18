@@ -829,10 +829,10 @@ span{
     white-space: nowrap;
     margin-bottom: vw(25);
     @include mq(md) {
-        padding: 0 mvw(15);
+        padding: 0;
         margin-bottom: mvw(50);
         max-width: mvw(1205);
-        margin: 0 auto mvw(35) auto;
+        margin: 0 auto mvw(49) auto;
     }
 &__inner a{
     color: #000;
@@ -859,34 +859,26 @@ span{
         width: mvw(800);
         margin: 0 auto mvw(61) auto;
 }
-&__inner-pc{
-    display: none;
+&__inner{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
     @include mq(md) {
         display: block;
         width: 100%;
         margin: 0 auto;
     }
 }
-&__inner-sp{
-    display: block;
-    width: 100%;
-    margin: 0 auto;
-    @include mq(md) {
-        display: none;
-    }
-}
-&__inner-img-pc{
-    @include mq(md) {
-        width: 100%;
-        height: auto;
-        border-radius: 24px;
-    }
-}
-&__inner-img-sp{
-    width: 100%;
+&__img{
+    width: vw(358);
     height: vw(237);
-    border-radius: 24px;
+    border-radius: vw(24);
+    @include mq(md) {
+        width: mvw(800);
+        height: auto;
+        border-radius: mvw(24);
     }
+}
 }
 .subheading{
     letter-spacing: -0.15rem;
@@ -967,24 +959,18 @@ span{
         margin-bottom: mvw(52);
 }
 }
-&__inner-img-pc{
-    display: none;
+&__img{
+    width: vw(358);
+    height: vw(200);
+    margin-bottom: vw(1);
+    border-radius: vw(16);
     @include mq(md) {
         display: block;
         height: mvw(150);
         width: mvw(246);
-        border-radius: 16px;
+        border-radius: mvw(16);
         margin-bottom: mvw(8);
     }
-}
-&__inner-img-sp{
-    width: vw(358);
-    height: vw(200);
-    margin-bottom: vw(1);
-    border-radius: 16px;
-    @include mq(md) {
-        display: none;
-}
 }
 &__inner-text{
     font-size: vw(18);

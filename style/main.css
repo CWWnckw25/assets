@@ -889,10 +889,10 @@ span {
 }
 @media screen and (min-width: 768px) {
   .breadcrumb {
-    padding: 0 min(1.4563106796vw, 0.9375rem);
+    padding: 0;
     margin-bottom: min(4.854368932vw, 3.125rem);
     max-width: min(116.9902912621vw, 75.3125rem);
-    margin: 0 auto min(3.3980582524vw, 2.1875rem) auto;
+    margin: 0 auto min(4.7572815534vw, 3.0625rem) auto;
   }
 }
 .breadcrumb__inner a {
@@ -928,37 +928,29 @@ span {
     margin: 0 auto min(5.9223300971vw, 3.8125rem) auto;
   }
 }
-.gallery__inner-pc {
-  display: none;
-}
-@media screen and (min-width: 768px) {
-  .gallery__inner-pc {
-    display: block;
-    width: 100%;
-    margin: 0 auto;
-  }
-}
-.gallery__inner-sp {
+.gallery__inner {
   display: block;
   width: 100%;
   margin: 0 auto;
 }
 @media screen and (min-width: 768px) {
-  .gallery__inner-sp {
-    display: none;
+  .gallery__inner {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
   }
+}
+.gallery__img {
+  width: 91.7948717949vw;
+  height: 60.7692307692vw;
+  border-radius: 6.1538461538vw;
 }
 @media screen and (min-width: 768px) {
-  .gallery__inner-img-pc {
-    width: 100%;
+  .gallery__img {
+    width: min(77.6699029126vw, 50rem);
     height: auto;
-    border-radius: 24px;
+    border-radius: min(2.3300970874vw, 1.5rem);
   }
-}
-.gallery__inner-img-sp {
-  width: 100%;
-  height: 60.7692307692vw;
-  border-radius: 24px;
 }
 
 .subheading {
@@ -1061,27 +1053,19 @@ span {
     margin-bottom: min(5.0485436893vw, 3.25rem);
   }
 }
-.features__inner-img-pc {
-  display: none;
-}
-@media screen and (min-width: 768px) {
-  .features__inner-img-pc {
-    display: block;
-    height: min(14.5631067961vw, 9.375rem);
-    width: min(23.8834951456vw, 15.375rem);
-    border-radius: 16px;
-    margin-bottom: min(0.7766990291vw, 0.5rem);
-  }
-}
-.features__inner-img-sp {
+.features__img {
   width: 91.7948717949vw;
   height: 51.2820512821vw;
   margin-bottom: 0.2564102564vw;
-  border-radius: 16px;
+  border-radius: 4.1025641026vw;
 }
 @media screen and (min-width: 768px) {
-  .features__inner-img-sp {
-    display: none;
+  .features__img {
+    display: block;
+    height: min(14.5631067961vw, 9.375rem);
+    width: min(23.8834951456vw, 15.375rem);
+    border-radius: min(1.5533980583vw, 1rem);
+    margin-bottom: min(0.7766990291vw, 0.5rem);
   }
 }
 .features__inner-text {
