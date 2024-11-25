@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html {
   scroll-behavior: smooth;
   overflow: hidden;
@@ -26,6 +27,7 @@ span {
   display: inline-block;
 }
 
+/*ヘッダー*/
 .header {
   position: fixed;
   top: 0;
@@ -90,6 +92,7 @@ span {
   }
 }
 
+/*ハンバーガーメニュー*/
 #hamburger-button {
   font-size: 9.2307692308vw;
   display: block;
@@ -162,6 +165,7 @@ span {
   }
 }
 
+/*メイン画像*/
 .sustainable__container {
   padding: 0vw 3.8461538462vw 2.5641025641vw 3.8461538462vw;
   margin-top: 18.4615384615vw;
@@ -233,6 +237,7 @@ span {
   }
 }
 
+/*About us 私たちについて*/
 .description {
   text-align: center;
 }
@@ -347,6 +352,7 @@ span {
   }
 }
 
+/*Features 私たちが選ばれる3つの理由*/
 .reason {
   padding: 10.2564102564vw 3.8461538462vw 14.358974359vw 3.8461538462vw;
   background-color: #f3f9f6;
@@ -428,6 +434,7 @@ span {
   }
 }
 
+/*Products/Service 製品・サービス紹介*/
 .introduction {
   padding: 13.0769230769vw 3.8461538462vw 14.358974359vw 3.8461538462vw;
   text-align: center;
@@ -607,6 +614,7 @@ span {
   }
 }
 
+/*Case お客様の事例紹介*/
 .case {
   padding: 12.3076923077vw 3.8461538462vw 14.1025641026vw 3.8461538462vw;
   background-color: #f3f9f6;
@@ -677,6 +685,7 @@ span {
   }
 }
 
+/*News お知らせ*/
 .news {
   padding: 11.5384615385vw 3.8461538462vw 16.4102564103vw 3.8461538462vw;
   text-align: center;
@@ -792,6 +801,7 @@ span {
   transform: translateY(5px);
 }
 
+/*footer*/
 .footer {
   background-color: #168352;
   padding: 5.3846153846vw 3.8461538462vw;
@@ -827,6 +837,7 @@ span {
   }
 }
 
+/*価格・スペック*/
 .product {
   padding: 20.7692307692vw 3.8461538462vw 3.8461538462vw 3.8461538462vw;
 }
@@ -879,6 +890,7 @@ span {
   }
 }
 
+/*パンくずリスト*/
 .breadcrumb {
   padding: 0 3.8461538462vw 0 3.8461538462vw;
   display: flex;
@@ -919,6 +931,7 @@ span {
   }
 }
 
+/*ギャラリー*/
 .gallery {
   margin-bottom: 13.5897435897vw;
 }
@@ -1020,6 +1033,7 @@ span {
   color: #168352;
 }
 
+/*特徴*/
 @media screen and (min-width: 768px) {
   .features {
     width: min(77.6699029126vw, 50rem);
@@ -1090,6 +1104,7 @@ span {
   }
 }
 
+/*価格*/
 @media screen and (min-width: 768px) {
   .price {
     width: min(77.6699029126vw, 50rem);
@@ -1136,6 +1151,7 @@ span {
   }
 }
 
+/*スペック*/
 .spec {
   padding-bottom: 16.4102564103vw;
 }
@@ -1267,8 +1283,9 @@ tr:last-child td {
   }
 }
 
+/*お問合せ*/
 .contact {
-  background-image: url("../img/contact_sp.jpg");
+  background-image: url("/img/contact_sp.jpg");
   width: 100%;
   height: 92.3076923077vw;
   background-size: cover;
@@ -1277,7 +1294,7 @@ tr:last-child td {
 }
 @media screen and (min-width: 768px) {
   .contact {
-    background-image: url("../img/contact_pc.jpg");
+    background-image: url("/img/contact_pc.jpg");
     height: min(43.6893203883vw, 28.125rem);
   }
 }
@@ -1315,6 +1332,7 @@ tr:last-child td {
   text-shadow: 1px 1px 0 #168352, -1px -1px 0 #168352, 1px -1px 0 #168352, -1px 1px 0 #168352;
 }
 
+/*よくあるご質問*/
 .faq__main {
   padding: 20.7692307692vw 3.8461538462vw 3.8461538462vw 3.8461538462vw;
 }

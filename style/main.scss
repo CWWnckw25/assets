@@ -83,6 +83,7 @@ li {
 span{
     display: inline-block;
 }
+/*ヘッダー*/
 .header{
     position: fixed;
     top: 0;
@@ -137,6 +138,7 @@ span{
     }
     }
 }
+/*ハンバーガーメニュー*/
 #hamburger-button{
     font-size: vw(36);
     display: block;
@@ -199,6 +201,7 @@ span{
     color: #168352;
 }
 }
+/*メイン画像*/
 .sustainable{
     &__container{
     padding: vw(0) vw(15) vw(10) vw(15);
@@ -263,6 +266,7 @@ span{
     }
 }
 }
+/*About us 私たちについて*/
 .description{
     text-align: center;
     @include mq(md) {
@@ -361,6 +365,7 @@ span{
     font-size: mvw(28);
 }
 }
+/*Features 私たちが選ばれる3つの理由*/
 .reason{
     padding: vw(40) vw(15) vw(56) vw(15);
     background-color: #f3f9f6;
@@ -427,6 +432,7 @@ span{
     }
 }
 }
+/*Products/Service 製品・サービス紹介*/
 .introduction{
     padding: vw(51) vw(15) vw(56) vw(15);
     text-align: center;
@@ -583,6 +589,7 @@ span{
 }
 }
 }
+/*Case お客様の事例紹介*/
 .case{
     padding: vw(48) vw(15)  vw(55) vw(15);
     background-color: #f3f9f6;
@@ -642,6 +649,7 @@ span{
         }
     }
 }
+/*News お知らせ*/
 .news{
     padding: vw(45) vw(15) vw(64) vw(15);
     text-align: center;
@@ -745,6 +753,7 @@ span{
     }
 
 }
+/*footer*/
 .footer{
     background-color: #168352;
     padding: vw(21) vw(15);
@@ -776,7 +785,7 @@ span{
         }
     }
 }
-//価格・スペック
+/*価格・スペック*/
 .product{
     padding: vw(81) vw(15) vw(15) vw(15);
     @include mq(md) {
@@ -821,6 +830,7 @@ span{
 }
 }
 }
+/*パンくずリスト*/
 .breadcrumb{
     padding: 0 vw(15) 0 vw(15);
     display: flex;
@@ -853,6 +863,7 @@ span{
     padding: 0 mvw(97) 0 mvw(97);
 }
 }
+/*ギャラリー*/
 .gallery{
     margin-bottom: vw(53);
     @include mq(md) {
@@ -931,6 +942,7 @@ span{
 .slick-dots li.slick-active button:before {
     color: #168352;
 }
+/*特徴*/
 .features{
 @include mq(md) {
     width: mvw(800);
@@ -991,6 +1003,7 @@ span{
     }
 }
 }
+/*価格*/
 .price{
     @include mq(md) {
         width: mvw(800);
@@ -1028,6 +1041,7 @@ span{
         }
     }
 }
+/*スペック*/
 .spec{
     padding-bottom: vw(64);
     @include mq(md) {
@@ -1135,15 +1149,16 @@ tr:last-child{
     border-bottom: none;
 }
 }
+/*お問合せ*/
 .contact{
-    background-image: url("../img/contact_sp.jpg");
+    background-image: url("/img/contact_sp.jpg");
     width: 100%;
     height:vw(360) ;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     @include mq(md) {
-        background-image: url("../img/contact_pc.jpg");;
+        background-image: url("/img/contact_pc.jpg");;
         height: mvw(450);
     }
         &__inner{
@@ -1177,7 +1192,7 @@ tr:last-child{
             
         }
     }
-//よくあるご質問
+/*よくあるご質問*/
 .faq{
 &__main{
     padding: vw(81) vw(15) vw(15) vw(15);
