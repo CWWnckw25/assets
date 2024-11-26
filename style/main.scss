@@ -130,7 +130,6 @@ span{
     }
     }
     &__hamburger-nav{
-        transform:all 0.3s ease;
         @include mq(md) {
         display: flex;
         align-items: center;
@@ -1271,11 +1270,11 @@ tr:last-child{
 &__inner-box-question{
     display: flex;
     align-items: center;
-    column-gap:vw(0) vw(30) ;
+    column-gap:vw(30) ;
     justify-content: space-between;
     height: vw(24);
     @include mq(md) {
-        column-gap: mvw(0) mvw(30);
+        column-gap: mvw(30);
         height: mvw(24);
         margin-bottom: mvw(10);
     }
