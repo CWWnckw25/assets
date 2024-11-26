@@ -1,213 +1,224 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <title>持続可能な未来農業を実現 | Kirameki Farm</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Kirameki Farmは革新的な農業機器とビッグデータ、自動運転のロボット、リジェネラティブ農業を駆使して持続可能な農業を目指すイノベーション企業です。次世代の子どもたちに環境に優しい未来農業を残すために、効率化と環境配慮を融合した活動を推進しています。">
+    <meta name="description"
+        content="Kirameki Farmは革新的な農業機器とビッグデータ、自動運転のロボット、リジェネラティブ農業を駆使して持続可能な農業を目指すイノベーション企業です。次世代の子どもたちに環境に優しい未来農業を残すために、効率化と環境配慮を融合した活動を推進しています。">
     <meta property="og:title" content="持続可能な未来農業を実現 | Kirameki Farm">
-    <meta property="og:description" content="Kirameki Farmは革新的な農業機器とビッグデータ、自動運転のロボット、リジェネラティブ農業を駆使して持続可能な農業を目指すイノベーション企業です。次世代の子どもたちに環境に優しい未来農業を残すために、効率化と環境配慮を融合した活動を推進しています。">
+    <meta property="og:description"
+        content="Kirameki Farmは革新的な農業機器とビッグデータ、自動運転のロボット、リジェネラティブ農業を駆使して持続可能な農業を目指すイノベーション企業です。次世代の子どもたちに環境に優しい未来農業を残すために、効率化と環境配慮を融合した活動を推進しています。">
     <meta property="og:type" content="article">
     <meta property="og:url" content="https://example.com/spec/">
     <meta property="og:site_name" content="Kirameki Farm">
     <link rel="stylesheet" href="https://unpkg.com/ress@4.0.0/dist/ress.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
     <link rel="stylesheet" href="/style/main.css">
 </head>
+
 <body>
-<!--ヘッダー-->
-<header class="header">
-    <div class="header__container">
-        <div class="header__inner">
-            <h1><a href="/index.html"><img src="/img/header_logo.png" alt="Kirameki Farm" class="header__inner-logo"></a></h1>
-            <a class="button"><i class="bi bi-list" id="hamburger-button"></i></a>
+    <!--ヘッダー-->
+    <header class="header">
+        <div class="header__container">
+            <div class="header__inner">
+                <h1><a href="/"><img src="/img/header_logo.png" alt="Kirameki Farm" class="header__inner-logo"></a></h1>
+                <a class="button"><i class="bi bi-list" id="hamburger-button"></i></a>
+            </div>
+            <div class="header__hamburger-menu">
+                <nav class="hamburger-nav">
+                    <ul class="hamburger-nav-list">
+                        <li class="hamburger-nav-list-first"><a href="/">トップ</a></li>
+                        <li class="top-color">価格・スペック</li>
+                        <li><a href="/faq">よくあるご質問</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
-        <div class="header__hamburger-menu">
-            <nav class="hamburger-nav">
-                <ul class="hamburger-nav-list">
-                    <li class="hamburger-nav-list-first"><a href="/index.html">トップ</a></li>
-                    <li class="top-color">価格・スペック</li>
-                    <li><a href="/faq">よくあるご質問</a></li>
-                </ul>
-            </nav>
+    </header>
+    <!--メイン-->
+    <section class="product">
+        <picture>
+            <source media="(min-width: 767px)" srcset="/img/product_top_pc.png">
+            <img src="/img/product_top_sp.png" alt="" class="product__img">
+        </picture>
+        <div class="product__inner">
+            <h2 class="product__inner-text">価格・スペック</h2>
+        </div>
+    </section>
+    <!--パンくずリスト-->
+    <div class="breadcrumb">
+        <div class="breadcrumb__inner">
+            <a href="/index.html">トップ</a> &gt; 価格・スペック
         </div>
     </div>
-</header>
-<!--メイン-->
-<section class="product">
-    <picture>
-        <source media="(min-width: 767px)" srcset="/img/product_top_pc.png">
-        <img src="/img/product_top_sp.png" alt="" class="product__img">
-    </picture>
-    <div class="product__inner">
-        <h2 class="product__inner-text">価格・スペック</h2>
-    </div> 
-</section>
-<!--パンくずリスト-->
-<div class="breadcrumb">
-    <div class="breadcrumb__inner">
-        <a href="/index.html">トップ</a> &gt; 価格・スペック
+    <div class="explanation-box">
+        <!--ギャラリー-->
+        <section class="gallery">
+            <h2 class="gallery__text subheading">ギャラリー</h2>
+            <div class="under-bar first-title">
+                <div class="under-bar__inner"></div>
+                <picture>
+                    <source media="(min-width: 767px)" srcset="/img/underbar_pc.jpg">
+                    <img src="/img/underbar_sp.jpg" alt="" class="underbar-img">
+                </picture>
+            </div>
+            <div class="gallery__inner">
+                <div class="gallery__inner-img-box">
+                    <picture>
+                        <source media="(min-width: 767px)" srcset="/img/gallery_01_pc.jpg">
+                        <img src="/img/gallery_01_sp.jpg" alt="" class="gallery__img">
+                    </picture>
+                    <picture>
+                        <source media="(min-width: 767px)" srcset="/img/gallery_02.jpg">
+                        <img src="/img/gallery_02.jpg" alt="" class="gallery__img">
+                    </picture>
+                    <picture>
+                        <source media="(min-width: 767px)" srcset="/img/gallery_03.jpg">
+                        <img src="/img/gallery_03.jpg" alt="" class="gallery__img">
+                    </picture>
+                    <picture>
+                        <source media="(min-width: 767px)" srcset="/img/gallery_04.png">
+                        <img src="/img/gallery_04.png" alt="" class="gallery__img">
+                    </picture>
+                </div>
+            </div>
+        </section>
+        <!--特徴-->
+        <section class="features">
+            <h2 class="features__text subheading">特長</h2>
+            <div class="under-bar first-title">
+                <div class="under-bar__inner"></div>
+                <picture>
+                    <source media="(min-width: 767px)" srcset="/img/underbar_pc.jpg">
+                    <img src="/img/underbar_sp.jpg" alt="" class="underbar-img">
+                </picture>
+            </div>
+            <div class="features__outer">
+                <div class="features__inner">
+                    <div class="features__inner-img-box">
+                        <picture>
+                            <source media="(min-width: 767px)" srcset="/img/features_01_pc.jpg">
+                            <img src="/img/features_01_sp.jpg" alt="" class="features__img">
+                        </picture>
+                    </div>
+                    <div class="features__inner-text-box">
+                        <p class="features__inner-text">自動操縦が可能で、短時間で大量の農作物を監視、収穫、播種、散布などの作業ができます。</p>
+                    </div>
+                </div>
+                <div class="features__inner">
+                    <div class="features__inner-img-box">
+                        <picture>
+                            <source media="(min-width: 767px)" srcset="/img/features_02_pc.jpg">
+                            <img src="/img/features_02_sp.jpg" alt="" class="features__img">
+                        </picture>
+                    </div>
+                    <div class="features__inner-text-box">
+                        <p class="features__inner-text features__inner-text-02">
+                            高精度のカメラやセンサーを搭載しており、正確な土壌・作物の情報を収集でき、水や肥料などの資源を適切に配分できます。</p>
+                    </div>
+                </div>
+                <div class="features__inner">
+                    <div class="features__inner-img-box">
+                        <picture>
+                            <source media="(min-width: 767px)" srcset="/img/features_03_pc.jpg">
+                            <img src="/img/features_03_sp.jpg" alt="" class="features__img">
+                        </picture>
+                    </div>
+                    <div class="features__inner-text-box">
+                        <p class="features__inner-text features__inner-text-02">
+                            必要な場所にだけ肥料や農薬を散布することができます。これにより、農薬や肥料の過剰使用が抑えられ、環境負荷やコスト削減に繋がります。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--価格-->
+        <section class="price">
+            <h2 class="price__text subheading">メーカー希望小売価格</h2>
+            <div class="under-bar first-title price__under-bar">
+                <div class="under-bar__inner"></div>
+                <picture>
+                    <source media="(min-width: 767px)" srcset="/img/underbar_pc.jpg">
+                    <img src="/img/underbar_sp.jpg" alt="" class="underbar-img">
+                </picture>
+            </div>
+            <p class="price__price">¥550,000<span class="price__tax">（税込）</span></p>
+        </section>
+        <!--スペック-->
+        <section class="spec">
+            <h2 class="spec__text subheading">スペック</h2>
+            <div class="under-bar first-title  spec__under-bar">
+                <div class="under-bar__inner"></div>
+                <picture>
+                    <source media="(min-width: 767px)" srcset="/img/underbar_pc.jpg">
+                    <img src="/img/underbar_sp.jpg" alt="" class="underbar-img">
+                </picture>
+            </div>
+            <div class="spec__inner">
+                <img src="/img/spec_border.png" alt="" class="spec__inner-img">
+                <span class="spec__inner-text">機体</span>
+            </div>
+            <table class="spec__table">
+                <tr>
+                    <th>ドローン名</th>
+                    <td>アグリ・ファルコン</td>
+                </tr>
+                <tr>
+                    <th>製品番号</th>
+                    <td>AGF-100</td>
+                </tr>
+                <tr>
+                    <th>飛行時間</th>
+                    <td>60 分</td>
+                </tr>
+                <tr>
+                    <th>最大積載量</th>
+                    <td>5 kg</td>
+                </tr>
+                <tr>
+                    <th>操作距離</th>
+                    <td>3 km</td>
+                </tr>
+                <tr>
+                    <th>機体重量</th>
+                    <td>8 kg</td>
+                </tr>
+                <tr>
+                    <th>機体寸法</th>
+                    <td>150 x 150 x 40 cm</td>
+                </tr>
+                <tr>
+                    <th>機能・特徴</th>
+                    <td class="spec__table-last">自動操縦、植物生育モニタリング、農薬散布</td>
+                </tr>
+            </table>
+        </section>
     </div>
-</div>
-<div class="explanation-box">
-<!--ギャラリー-->
-    <section class="gallery">
-        <h2 class="gallery__text subheading">ギャラリー</h2>
-        <div class="under-bar first-title">
-            <div class="under-bar__inner"></div>
-            <picture>
-                <source media="(min-width: 767px)" srcset="/img/underbar_pc.jpg">
-                <img src="/img/underbar_sp.jpg" alt="" class="underbar-img">
-            </picture>
-        </div>
-        <div class="gallery__inner">
-            <div class="gallery__inner-img-box">
-                <picture>
-                    <source media="(min-width: 767px)" srcset="/img/gallery_01_pc.jpg">
-                    <img src="/img/gallery_01_sp.jpg" alt="" class="gallery__img">
-                </picture>
-                <picture>
-                    <source media="(min-width: 767px)" srcset="/img/gallery_02.jpg">
-                    <img src="/img/gallery_02.jpg" alt="" class="gallery__img">
-                </picture>
-                <picture>
-                    <source media="(min-width: 767px)" srcset="/img/gallery_03.jpg">
-                    <img src="/img/gallery_03.jpg" alt="" class="gallery__img">
-                </picture>
-                <picture>
-                    <source media="(min-width: 767px)" srcset="/img/gallery_04.png">
-                    <img src="/img/gallery_04.png" alt="" class="gallery__img">
-                </picture>
-            </div>
-        </div>
+    <!-- お問い合わせ-->
+    <section class="contact">
+        <h2 class="contact__inner">
+            <a href="/contact" class="button contact__button">お問い合わせ</a>
+        </h2>
     </section>
-    <!--特徴-->
-    <section class="features">
-        <h2 class="features__text subheading">特長</h2>
-        <div class="under-bar first-title">
-            <div class="under-bar__inner"></div>
-            <picture>
-                <source media="(min-width: 767px)" srcset="/img/underbar_pc.jpg">
-                <img src="/img/underbar_sp.jpg" alt="" class="underbar-img">
-            </picture>
-        </div>
-        <div class="features__outer">
-            <div class="features__inner">
-                <div class="features__inner-img-box">
-                    <picture>
-                        <source media="(min-width: 767px)" srcset="/img/features_01_pc.jpg">
-                        <img src="/img/features_01_sp.jpg" alt="" class="features__img">
-                    </picture>
-                </div>
-                <div class="features__inner-text-box">
-                    <p class="features__inner-text">自動操縦が可能で、短時間で大量の農作物を監視、収穫、播種、散布などの作業ができます。</p>
-                </div>
-            </div>
-            <div class="features__inner">
-                <div class="features__inner-img-box">
-                    <picture>
-                        <source media="(min-width: 767px)" srcset="/img/features_02_pc.jpg">
-                        <img src="/img/features_02_sp.jpg" alt="" class="features__img">
-                    </picture>
-                </div>
-                <div class="features__inner-text-box">
-                    <p class="features__inner-text features__inner-text-02">高精度のカメラやセンサーを搭載しており、正確な土壌・作物の情報を収集でき、水や肥料などの資源を適切に配分できます。</p>
-                </div>
-            </div>
-            <div class="features__inner">
-                <div class="features__inner-img-box">
-                    <picture>
-                        <source media="(min-width: 767px)" srcset="/img/features_03_pc.jpg">
-                        <img src="/img/features_03_sp.jpg" alt="" class="features__img">
-                    </picture>
-                </div>
-                <div class="features__inner-text-box">
-                    <p class="features__inner-text features__inner-text-02">必要な場所にだけ肥料や農薬を散布することができます。これにより、農薬や肥料の過剰使用が抑えられ、環境負荷やコスト削減に繋がります。</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--価格-->
-    <section class="price">
-        <h2 class="price__text subheading">メーカー希望小売価格</h2>
-        <div class="under-bar first-title price__under-bar">
-            <div class="under-bar__inner"></div>
-            <picture>
-                <source media="(min-width: 767px)" srcset="/img/underbar_pc.jpg">
-                <img src="/img/underbar_sp.jpg" alt="" class="underbar-img">
-            </picture>
-        </div>
-        <p class="price__price">¥550,000<span class="price__tax">（税込）</span></p>
-    </section>
-    <!--スペック-->
-    <section class="spec">
-        <h2 class="spec__text subheading">スペック</h2>
-        <div class="under-bar first-title  spec__under-bar">
-            <div class="under-bar__inner"></div>
-            <picture>
-                <source media="(min-width: 767px)" srcset="/img/underbar_pc.jpg">
-                <img src="/img/underbar_sp.jpg" alt="" class="underbar-img">
-            </picture>
-        </div>
-        <div class="spec__inner">
-            <img src="/img/spec_border.png" alt="" class="spec__inner-img">
-            <span class="spec__inner-text">機体</span>
-        </div>
-        <table class="spec__table">
-            <tr>
-                <th>ドローン名</th>
-                <td>アグリ・ファルコン</td>
-            </tr>
-            <tr>
-                <th>製品番号</th>
-                <td>AGF-100</td>
-            </tr>
-            <tr>
-                <th>飛行時間</th>
-                <td>60 分</td>
-            </tr>
-            <tr>
-                <th>最大積載量</th>
-                <td>5 kg</td>
-            </tr>
-            <tr>
-                <th>操作距離</th>
-                <td>3 km</td>
-            </tr>
-            <tr>
-                <th>機体重量</th>
-                <td>8 kg</td>
-            </tr>
-            <tr>
-                <th>機体寸法</th>
-                <td>150 x 150 x 40 cm</td>
-            </tr>
-            <tr>
-                <th>機能・特徴</th>
-                <td class="spec__table-last">自動操縦、植物生育モニタリング、農薬散布</td>
-            </tr>
-        </table>
-    </section>
-</div>
-<!-- お問い合わせ-->
-<section class="contact">
-    <h2 class="contact__inner">
-        <a href="/contact" class="button contact__button">お問い合わせ</a>
-    </h2>
-</section>
-<!-- フッター-->
-<footer class="footer">
-    <div class="footer__innner"><a href="/price" class="footer__link-spec">価格・スペック</a><img src="/img/footer_border.png" alt="" class="footer__border"><a href="/faq" class="footer__link-faq">よくあるご質問</a></div>
-</footer>
-<!-- jQuery -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<!-- Slick-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-<script src="/script/main.js"></script>
+    <!-- フッター-->
+    <footer class="footer">
+        <div class="footer__innner"><a href="/price" class="footer__link-spec">価格・スペック</a><img
+                src="/img/footer_border.png" alt="" class="footer__border"><a href="/faq"
+                class="footer__link-faq">よくあるご質問</a></div>
+    </footer>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Slick-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="/script/main.js"></script>
 </body>
+
 </html>

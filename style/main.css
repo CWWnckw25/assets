@@ -127,7 +127,6 @@ span {
     flex-direction: unset;
     gap: min(3.6893203883vw, 2.375rem);
     white-space: nowrap;
-    width: min(25.4368932039vw, 16.375rem);
     height: auto;
     background-color: #fff;
     font-size: min(1.5533980583vw, 1rem);
@@ -485,7 +484,7 @@ span {
     width: 30.3%;
     height: min(14.5631067961vw, 9.375rem);
     padding: min(1.9417475728vw, 1.25rem) min(2.2330097087vw, 1.4375rem) min(1.9417475728vw, 1.25rem) min(2.3300970874vw, 1.5rem);
-    gap: min(1.9417475728vw, 1.25rem);
+    gap: 5.5%;
   }
 }
 @media screen and (min-width: 768px) {
@@ -493,6 +492,7 @@ span {
     max-width: 30.3%;
     margin: 0 auto;
     padding: min(1.9417475728vw, 1.25rem) min(0.9708737864vw, 0.625rem);
+    gap: 10.5%;
   }
 }
 @media screen and (min-width: 768px) {
@@ -520,14 +520,6 @@ span {
 }
 .introduction__button-pc-first:hover .introduction__button-after {
   display: block;
-}
-.introduction__item:first-child {
-  width: 44.358974359vw;
-}
-@media screen and (min-width: 768px) {
-  .introduction__item:first-child {
-    width: min(21.6504854369vw, 13.9375rem);
-  }
 }
 .introduction__button-text {
   font-size: 4.6153846154vw;
@@ -597,7 +589,7 @@ span {
 }
 @media screen and (min-width: 768px) {
   .introduction__img-s {
-    margin-left: min(1.4563106796vw, 0.9375rem);
+    margin-left: 13%;
     width: min(10.6796116505vw, 6.875rem);
     height: auto;
   }

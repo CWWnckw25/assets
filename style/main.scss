@@ -170,7 +170,6 @@ span{
         flex-direction: unset;
         gap: mvw(38);
         white-space: nowrap;
-        width: mvw(262);
         height: auto;
         background-color: #fff;
         font-size: mvw(16);
@@ -475,7 +474,7 @@ span{
             width: 30.3%;
             height: mvw(150);
             padding: mvw(20) mvw(23) mvw(20) mvw(24);
-            gap: mvw(20);
+            gap: 5.5%;
     }
 }
     &__button-s{
@@ -483,6 +482,7 @@ span{
             max-width: 30.3%;
             margin: 0 auto;
             padding: mvw(20) mvw(10);
+            gap: 10.5%;
     }
 }
     &__button-pc{
@@ -511,13 +511,6 @@ span{
     &__button-pc-first:hover .introduction__button-after{
             display: block;
         }
-    
-    &__item:first-child{
-        width: vw(173);
-        @include mq(md) {
-            width: mvw(223);
-        }
-    }
 
     &__button-text{
         font-size: vw(18);
@@ -554,6 +547,7 @@ span{
     &__button-text03{
         @include mq(md) {
             font-size: mvw(20);
+            
     }
 }
     &__button-span{
@@ -574,7 +568,7 @@ span{
         max-width: none;
         display: block;
         @include mq(md) {
-            margin-left: mvw(15);
+            margin-left: 13%;
             width: mvw(110);
             height: auto;
     }
