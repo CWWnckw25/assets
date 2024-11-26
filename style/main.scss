@@ -179,10 +179,12 @@ span{
     }
 }
 .hamburger-nav-list a:hover{
+    opacity: 0.7;
     @include mq(md) {
         color: #168352;
 }
 }
+
 .hamburger-nav-list a{
     color: #fff;
     @include mq(md) {
@@ -195,6 +197,7 @@ span{
 }
 }
 .top-color{
+    color: #fff;
     @include mq(md) {
     color: #168352;
 }
@@ -402,6 +405,7 @@ span{
         background-color: #fff;
         border-radius: 24px;
         text-align: left;
+        box-shadow: 0px 0px 10px 0px #0000001a;
         @include mq(md) {
             width: mvw(369);
             height: mvw(319)
@@ -500,7 +504,7 @@ span{
     &__button-pc-first .introduction__button-after{
             display: none;
         }
-    &__button-pc-first:hover{
+    &__button:hover{
             background-color: #dffaec;
             color: #168352;            
         }
@@ -732,6 +736,7 @@ span{
         font-size: vw(18);
         font-weight: bold;
         box-shadow:#066655 0px 5px 0px 0px;
+        transition: all 0.5s;
         @include mq(md) {
             display: block;
             width: mvw(300);
@@ -1181,7 +1186,7 @@ tr:last-child{
     }
         a:hover{
             background-color: #fff;
-            text-shadow: 1px 1px 0 #168352, -1px -1px 0 #168352, 1px -1px 0 #168352, -1px 1px 0 #168352;
+            color: #168352;
             
         }
     }
@@ -1237,11 +1242,12 @@ tr:last-child{
     width: vw(358);
     margin: 0 auto;
     border: solid 1px #ccc;
-    border-radius: 24px;
+    border-radius: vw(24);
     padding: vw(24) vw(13) vw(17) vw(24);
     @include mq(md) {
         width: mvw(800);
         padding: mvw(20) mvw(21) mvw(18) mvw(32);
+        border-radius: mvw(18);
     }    
 }
 &__inner-box:hover{

@@ -134,6 +134,9 @@ span {
   }
 }
 
+.hamburger-nav-list a:hover {
+  opacity: 0.7;
+}
 @media screen and (min-width: 768px) {
   .hamburger-nav-list a:hover {
     color: #168352;
@@ -155,6 +158,9 @@ span {
   }
 }
 
+.top-color {
+  color: #fff;
+}
 @media screen and (min-width: 768px) {
   .top-color {
     color: #168352;
@@ -396,6 +402,7 @@ span {
   background-color: #fff;
   border-radius: 24px;
   text-align: left;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1019607843);
 }
 @media screen and (min-width: 768px) {
   .reason__item {
@@ -508,7 +515,7 @@ span {
 .introduction__button-pc-first .introduction__button-after {
   display: none;
 }
-.introduction__button-pc-first:hover {
+.introduction__button:hover {
   background-color: #dffaec;
   color: #168352;
 }
@@ -775,6 +782,7 @@ span {
   font-size: 4.6153846154vw;
   font-weight: bold;
   box-shadow: #066655 0px 5px 0px 0px;
+  transition: all 0.5s;
 }
 @media screen and (min-width: 768px) {
   .news__button {
@@ -1318,7 +1326,7 @@ tr:last-child td {
 }
 .contact a:hover {
   background-color: #fff;
-  text-shadow: 1px 1px 0 #168352, -1px -1px 0 #168352, 1px -1px 0 #168352, -1px 1px 0 #168352;
+  color: #168352;
 }
 
 /*よくあるご質問*/
@@ -1379,13 +1387,14 @@ tr:last-child td {
   width: 91.7948717949vw;
   margin: 0 auto;
   border: solid 1px #ccc;
-  border-radius: 24px;
+  border-radius: 6.1538461538vw;
   padding: 6.1538461538vw 3.3333333333vw 4.358974359vw 6.1538461538vw;
 }
 @media screen and (min-width: 768px) {
   .faq__inner-box {
     width: min(77.6699029126vw, 50rem);
     padding: min(1.9417475728vw, 1.25rem) min(2.0388349515vw, 1.3125rem) min(1.7475728155vw, 1.125rem) min(3.1067961165vw, 2rem);
+    border-radius: min(1.7475728155vw, 1.125rem);
   }
 }
 .faq__inner-box:hover {
