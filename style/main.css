@@ -38,7 +38,7 @@ span {
 }
 @media screen and (min-width: 768px) {
   .header {
-    padding: min(3.3009708738vw, 2.125rem) min(1.4563106796vw, 0.9375rem) min(3.3980582524vw, 2.1875rem) min(1.4563106796vw, 0.9375rem);
+    padding: min(3.2038834951vw, 2.0625rem) min(1.4563106796vw, 0.9375rem) min(3.3980582524vw, 2.1875rem) min(1.4563106796vw, 0.9375rem);
     width: 100%;
   }
 }
@@ -197,11 +197,12 @@ span {
     font-size: min(3.8834951456vw, 2.5rem);
     padding-bottom: min(0vw, 0rem);
     white-space: nowrap;
+    margin-top: min(0.0970873786vw, 0.0625rem);
   }
 }
 .sustainable__paragraph {
   font-size: 3.8461538462vw;
-  padding-bottom: 3.3333333333vw;
+  padding-bottom: 3.8461538462vw;
   width: 92.0512820513vw;
   letter-spacing: 0.005rem;
   line-height: 1.78;
@@ -226,7 +227,7 @@ span {
 .sustainable__img {
   width: 92.3076923077vw;
   height: 115.3846153846vw;
-  margin: 0vw 3.8461538462vw 11.2820512821vw 3.8461538462vw;
+  margin: 0vw 3.8461538462vw 11.0256410256vw 3.8461538462vw;
   border-radius: 40px;
 }
 @media screen and (min-width: 768px) {
@@ -426,7 +427,7 @@ span {
 .reason__detail {
   font-size: 4.6153846154vw;
   font-weight: bold;
-  padding: 1.5384615385vw 4.1025641026vw 5.1282051282vw 4.1025641026vw;
+  padding: 1.0256410256vw 4.1025641026vw 5.1282051282vw 4.1025641026vw;
   line-height: 1.7;
 }
 @media screen and (min-width: 768px) {
@@ -444,13 +445,13 @@ span {
 }
 @media screen and (min-width: 768px) {
   .introduction {
-    padding: min(5.6310679612vw, 3.625rem) min(1.4563106796vw, 0.9375rem);
+    padding: min(5.6310679612vw, 3.625rem) min(1.4563106796vw, 0.9375rem) min(6.213592233vw, 4rem) min(1.4563106796vw, 0.9375rem);
     max-width: 100%;
   }
 }
 .introduction__container-title {
   line-height: 1.5;
-  margin-bottom: 5.1282051282vw;
+  margin-bottom: 4.6153846154vw;
 }
 @media screen and (min-width: 768px) {
   .introduction__container-title {
@@ -612,14 +613,14 @@ span {
 
 /*Case お客様の事例紹介*/
 .case {
-  padding: 12.3076923077vw 3.8461538462vw 14.1025641026vw 3.8461538462vw;
+  padding: 12.8205128205vw 3.8461538462vw 14.1025641026vw 3.8461538462vw;
   background-color: #f3f9f6;
   text-align: center;
   line-height: 1.5;
 }
 @media screen and (min-width: 768px) {
   .case {
-    padding: min(6.0194174757vw, 3.875rem) min(2.9126213592vw, 1.875rem) min(6.3106796117vw, 4.0625rem) min(2.9126213592vw, 1.875rem);
+    padding: min(5.5339805825vw, 3.5625rem) min(1.4563106796vw, 0.9375rem) min(6.3106796117vw, 4.0625rem) min(1.4563106796vw, 0.9375rem);
     margin: 0 auto;
   }
 }
@@ -627,7 +628,7 @@ span {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 6.4102564103vw;
+  gap: 6.9230769231vw;
 }
 @media screen and (min-width: 768px) {
   .case__box {
@@ -658,7 +659,7 @@ span {
   width: 91.7948717949vw;
   height: 51.5384615385vw;
   border-radius: 24px;
-  margin-bottom: 0.7692307692vw;
+  margin-bottom: 0.5128205128vw;
 }
 @media screen and (min-width: 768px) {
   .case__img {
@@ -683,7 +684,7 @@ span {
 
 /*News お知らせ*/
 .news {
-  padding: 11.5384615385vw 3.8461538462vw 16.4102564103vw 3.8461538462vw;
+  padding: 11.5384615385vw 3.8461538462vw 15.3846153846vw 3.8461538462vw;
   text-align: center;
   line-height: 1.5;
 }
@@ -694,7 +695,7 @@ span {
   }
 }
 .news__list {
-  margin-top: 6.1538461538vw;
+  margin-top: 5.1282051282vw;
   border-bottom: solid 2px #f3f9f6;
 }
 @media screen and (min-width: 768px) {
@@ -711,12 +712,12 @@ span {
   }
 }
 .news__item {
-  border-top: solid 2px #f3f9f6;
+  border-top: solid 2px #ddd;
 }
 .news__item-flex {
   display: flex;
   gap: 4.6153846154vw;
-  margin-top: 2.3076923077vw;
+  margin-top: 3.3333333333vw;
   align-items: center;
   margin-bottom: 3.0769230769vw;
 }
@@ -764,7 +765,7 @@ span {
   text-align: left;
   letter-spacing: 0.01rem;
   line-height: 1.66;
-  margin-bottom: 3.8461538462vw;
+  margin-bottom: 2.8205128205vw;
 }
 @media screen and (min-width: 768px) {
   .news__detail {
@@ -801,7 +802,7 @@ span {
 /*footer*/
 .footer {
   background-color: #168352;
-  padding: 5.3846153846vw 3.8461538462vw;
+  padding: 5.641025641vw 3.8461538462vw;
   line-height: 1.75;
 }
 @media screen and (min-width: 768px) {
@@ -898,10 +899,10 @@ span {
 }
 @media screen and (min-width: 768px) {
   .breadcrumb {
-    padding: 0;
+    padding: 0 min(1.4563106796vw, 0.9375rem);
     margin-bottom: min(4.854368932vw, 3.125rem);
-    max-width: min(116.9902912621vw, 75.3125rem);
     margin: 0 auto min(4.7572815534vw, 3.0625rem) auto;
+    max-width: min(119.7087378641vw, 77.0625rem);
   }
 }
 .breadcrumb__inner a {
@@ -935,7 +936,7 @@ span {
 @media screen and (min-width: 768px) {
   .gallery {
     width: min(77.6699029126vw, 50rem);
-    margin: 0 auto min(5.9223300971vw, 3.8125rem) auto;
+    margin: 0 auto min(5.7281553398vw, 3.6875rem) auto;
   }
 }
 .gallery__inner {
@@ -950,6 +951,11 @@ span {
     margin: 0 auto;
   }
 }
+@media screen and (min-width: 768px) {
+  .gallery__inner-img-box {
+    gap: min(1.9417475728vw, 1.25rem);
+  }
+}
 .gallery__img {
   width: 91.7948717949vw;
   height: 60.7692307692vw;
@@ -960,6 +966,7 @@ span {
     width: min(77.6699029126vw, 50rem);
     height: auto;
     border-radius: min(2.3300970874vw, 1.5rem);
+    padding: 0 min(0.4854368932vw, 0.3125rem);
   }
 }
 
@@ -971,7 +978,7 @@ span {
     font-weight: bold;
     font-size: min(2.7184466019vw, 1.75rem);
     letter-spacing: -0.05rem;
-    margin-bottom: min(1.2621359223vw, 0.8125rem);
+    margin-bottom: min(1.4563106796vw, 0.9375rem);
   }
 }
 
@@ -1061,7 +1068,7 @@ span {
 @media screen and (min-width: 768px) {
   .features__inner {
     width: min(23.8834951456vw, 15.375rem);
-    margin-bottom: min(5.0485436893vw, 3.25rem);
+    margin-bottom: min(4.9514563107vw, 3.1875rem);
   }
 }
 .features__img {
@@ -1136,7 +1143,7 @@ span {
   .price__price {
     font-size: min(3.1067961165vw, 2rem);
     letter-spacing: unset;
-    margin-bottom: min(4.6601941748vw, 3rem);
+    margin-bottom: min(4.4660194175vw, 2.875rem);
   }
 }
 .price__tax {
@@ -1181,7 +1188,7 @@ span {
 @media screen and (min-width: 768px) {
   .spec__inner {
     gap: min(1.6504854369vw, 1.0625rem);
-    margin-bottom: min(2.427184466vw, 1.5625rem);
+    margin-bottom: min(2.2330097087vw, 1.4375rem);
     margin-left: min(2.9126213592vw, 1.875rem);
   }
 }
@@ -1398,7 +1405,6 @@ tr:last-child td {
   }
 }
 .faq__inner-box:hover {
-  background-color: #f3f9f6;
   cursor: pointer;
 }
 .faq__inner-box-correction {

@@ -92,7 +92,7 @@ span{
     background-color: #fff;
     padding:vw(0) vw(10)vw(14) vw(15);
     @include mq(md) {
-        padding: mvw(34) mvw(15) mvw(35) mvw(15);
+        padding: mvw(33) mvw(15) mvw(35) mvw(15);
         width: 100%;
         
     }
@@ -231,11 +231,12 @@ span{
             font-size: mvw(40);
             padding-bottom: mvw(0);
             white-space: nowrap;
+            margin-top: mvw(1);
         }
     }
     &__paragraph{
         font-size: vw(15);
-        padding-bottom: vw(13);
+        padding-bottom: vw(15);
         width: vw(359);
         letter-spacing: 0.005rem;
         line-height: 1.78;
@@ -256,7 +257,7 @@ span{
     &__img{
         width: vw(360);
         height: vw(450);
-        margin: vw(0) vw(15) vw(44) vw(15);
+        margin: vw(0) vw(15) vw(43) vw(15);
         border-radius: 40px;
         @include mq(md) {
             width: mvw(1167);
@@ -425,7 +426,7 @@ span{
     &__detail{
         font-size:vw(18);
         font-weight: bold;
-        padding: vw(6) vw(16) vw(20) vw(16);
+        padding: vw(4) vw(16) vw(20) vw(16);
         line-height: 1.7;
         @include mq(md) {
             font-size: mvw(19);
@@ -439,12 +440,12 @@ span{
     padding: vw(51) vw(15) vw(56) vw(15);
     text-align: center;
     @include mq(md) {
-        padding: mvw(58) mvw(15);
+        padding: mvw(58) mvw(15) mvw(64) mvw(15);
         max-width: 100%;
     }
     &__container-title{
         line-height: 1.5;
-        margin-bottom: vw(20);
+        margin-bottom: vw(18);
         @include mq(md) {
             line-height: 1.7;
             margin-bottom: mvw(23);
@@ -588,19 +589,19 @@ span{
 }
 /*Case お客様の事例紹介*/
 .case{
-    padding: vw(48) vw(15)  vw(55) vw(15);
+    padding: vw(50) vw(15)  vw(55) vw(15);
     background-color: #f3f9f6;
     text-align: center;
     line-height: 1.5;
     @include mq(md) {
-        padding: mvw(62) mvw(30) mvw(65) mvw(30);
+        padding: mvw(57) mvw(15) mvw(65) mvw(15);
         margin: 0 auto;
     }
     &__box{
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: vw(25);
+        gap: vw(27);
         @include mq(md) {
             flex-direction: row;
             gap: mvw(31);
@@ -627,7 +628,7 @@ span{
         width:vw(358) ;
         height: vw(201);
         border-radius: 24px;
-        margin-bottom: vw(3);
+        margin-bottom: vw(2);
         @include mq(md) {
             width: mvw(369);
             height: mvw(226);
@@ -648,7 +649,7 @@ span{
 }
 /*News お知らせ*/
 .news{
-    padding: vw(45) vw(15) vw(64) vw(15);
+    padding: vw(45) vw(15) vw(60) vw(15);
     text-align: center;
     line-height: 1.5;
     @include mq(md) {
@@ -656,7 +657,7 @@ span{
         line-height: 1.6;
     }
     &__list{
-        margin-top: vw(24);
+        margin-top: vw(20);
         border-bottom: solid 2px #f3f9f6;
         @include mq(md) {
             margin: mvw(23) auto mvw(10) auto;
@@ -671,12 +672,12 @@ span{
         }
     }
     &__item{
-        border-top: solid 2px #f3f9f6;
+        border-top: solid 2px #ddd;
     }
     &__item-flex{
         display: flex;
         gap:vw(18);
-        margin-top: vw(9);
+        margin-top: vw(13);
         align-items: center;
         margin-bottom: vw(12);
         @include mq(md) {
@@ -719,7 +720,7 @@ span{
         text-align: left;
         letter-spacing: 0.01rem;
         line-height: 1.66;
-        margin-bottom: vw(15);
+        margin-bottom: vw(11);
         @include mq(md) {
             font-size: mvw(15);
             margin-bottom: 0;
@@ -754,7 +755,7 @@ span{
 /*footer*/
 .footer{
     background-color: #168352;
-    padding: vw(21) vw(15);
+    padding: vw(22) vw(15);
     line-height: 1.75;
     @include mq(md) {
         padding: mvw(36) mvw(15) mvw(36) mvw(15);
@@ -837,10 +838,10 @@ span{
     white-space: nowrap;
     margin-bottom: vw(25);
     @include mq(md) {
-        padding: 0;
+        padding: 0 mvw(15);
         margin-bottom: mvw(50);
-        max-width: mvw(1205);
         margin: 0 auto mvw(49) auto;
+        max-width: mvw(1233);
     }
 &__inner a{
     color: #000;
@@ -866,7 +867,7 @@ span{
     margin-bottom: vw(53);
     @include mq(md) {
         width: mvw(800);
-        margin: 0 auto mvw(61) auto;
+        margin: 0 auto mvw(59) auto;
 }
 &__inner{
     display: block;
@@ -878,6 +879,11 @@ span{
         margin: 0 auto;
     }
 }
+&__inner-img-box{
+    @include mq(md) {
+        gap: mvw(20);
+    }
+}
 &__img{
     width: vw(358);
     height: vw(237);
@@ -886,6 +892,7 @@ span{
         width: mvw(800);
         height: auto;
         border-radius: mvw(24);
+        padding: 0 mvw(5);
     }
 }
 }
@@ -895,7 +902,7 @@ span{
         font-weight: bold;
         font-size: mvw(28);
         letter-spacing: -0.05rem;
-        margin-bottom: mvw(13);
+        margin-bottom: mvw(15);
     }
 }
 .under-bar{
@@ -966,7 +973,7 @@ span{
     margin-bottom: vw(35);
     @include mq(md) {
         width: mvw(246);
-        margin-bottom: mvw(52);
+        margin-bottom: mvw(51);
 }
 }
 &__img{
@@ -1029,7 +1036,7 @@ span{
         @include mq(md) {
             font-size: mvw(32);
             letter-spacing: unset;
-            margin-bottom: mvw(48);            
+            margin-bottom: mvw(46);            
         }
     }
     &__tax{
@@ -1065,7 +1072,7 @@ span{
         margin-bottom: vw(16);
         @include mq(md) {
             gap: mvw(17);
-            margin-bottom: mvw(25);
+            margin-bottom: mvw(23);
             margin-left: mvw(30);
         }
     }
@@ -1251,7 +1258,6 @@ tr:last-child{
     }    
 }
 &__inner-box:hover{
-    background-color: #f3f9f6;
     cursor: pointer;
 }
 &__inner-box-correction{
